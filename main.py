@@ -38,9 +38,9 @@ Projects = {
 }
 
 
-with open("assets\\BhargaveshDakkaResume.pdf","rb") as pdf_file :
+with open("BhargaveshDakkaResume.pdf","rb") as pdf_file :
     resume = pdf_file.read()
-profile_pic = Image.open("assets\\profile.jpg")
+profile_pic = Image.open("profile.jpg")
 
 col1, col2 = st.columns(2,gap="small")
 with col1:
