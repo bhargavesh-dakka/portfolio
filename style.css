@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'san-serif' ;
+    /* font-size: 20px; */
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+a:hover{
+    color: #d33682 !important;
+    text-decoration: none;
+    text-decoration-line: overline;
+}
+
+ul{    list-style-type: none;     }
+hr{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#MainMenu {visibility: none;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+
+img{
+    border-radius: 500%;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
