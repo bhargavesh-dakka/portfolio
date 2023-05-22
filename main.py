@@ -64,6 +64,8 @@ cols = st.columns(len(Social_media))
 for index, (platform,link) in enumerate(Social_media.items()):
     with cols[index]:
         st.markdown(f"[{platform}]({link})")
+st.write("#")
+st.divider()
 
 st.write("#")
 st.subheader("Education")
@@ -90,4 +92,15 @@ st.divider()
 st.write("#")
 st.subheader("Projects & Accomplishments")
 for projects,links in Projects.items():
-    st.write(f"🏆 [{projects}]({links})")
+    st.write(f"- 🏆 [{projects}]({links})")
+
+st.divider()
+st.write("#")
+st.subheader("Certifications and Trainings")
+st.write("""
+- 📜 [Google Data Analytics](https://www.coursera.org/account/accomplishments/specialization/certificate/TC7UU95XB2ZF)
+- 📜 [IBM Data Science](https://www.coursera.org/account/accomplishments/specialization/certificate/RSW23M32ZCKH)
+- 📜 [Google IT Automation with Python](https://www.coursera.org/account/accomplishments/specialization/certificate/JEWD7G2KUV85)
+- 📜 [Hacker Rank Python Certificate](https://www.hackerrank.com/certificates/30a4765dcf6a)
+- 📜 [Hacker Rank SQL Certificate](https://www.hackerrank.com/certificates/96f40fcb7add)
+""")
